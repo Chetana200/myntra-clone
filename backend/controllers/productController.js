@@ -11,7 +11,7 @@ export const createProduct = async (req, res) => {
     }
 };
 
-// Get all products
+// Get all 
 export const getProducts = async (req, res) => {
     try {
         const products = await Product.find();
